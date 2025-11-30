@@ -35,7 +35,7 @@ cd BlindHelperApp
 #### 1. 🖥️ **Серверная часть** 
 Сервер обработки изображений находится в отдельном репозитории:
 
-🔗 **[BLIP FastAPI Server](https://github.com/your-username/blip-fastapi)**
+🔗 **[BLIP FastAPI Server](https://github.com/rrinnaa/blip-fastapi/)**
 
 #### 2. 🌐 **Сетевая настройка**
 
