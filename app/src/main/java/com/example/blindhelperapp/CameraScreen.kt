@@ -24,7 +24,7 @@ import org.json.JSONObject
 import java.io.ByteArrayOutputStream
 import java.util.*
 
-// Константа для URL сервера - ЗАМЕНИТЕ НА ВАШ IP АДРЕС
+// ЗАМЕНИТЕ НА ВАШ IP АДРЕС
 private const val SERVER_URL = "http://IP:8000/describe"
 
 @Composable
