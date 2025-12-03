@@ -12,7 +12,6 @@ import androidx.compose.material3.Surface
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
-import com.example.blindhelperapp.ui.HomeScreen
 import com.example.blindhelperapp.ui.theme.BlindHelperAppTheme
 import java.util.Locale
 
