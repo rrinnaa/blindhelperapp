@@ -12,7 +12,10 @@ import androidx.compose.ui.unit.sp
 import androidx.navigation.NavController
 
 @Composable
-fun HomeScreen(navController: NavController) {
+fun HomeScreen(
+    navController: NavController,
+    onTestVoiceClick: () -> Unit
+) {
     Box(
         modifier = Modifier.fillMaxSize(),
         contentAlignment = Alignment.Center
@@ -56,6 +59,20 @@ fun HomeScreen(navController: NavController) {
                     text = "Начать",
                     fontSize = 18.sp,
                     fontWeight = FontWeight.Medium
+                )
+            }
+
+            Spacer(modifier = Modifier.height(20.dp))
+
+            OutlinedButton(
+                onClick = { onTestVoiceClick() },
+                modifier = Modifier
+                    .width(200.dp)
+                    .height(50.dp)
+            ) {
+                Text(
+                    text = "Проверить голос",
+                    fontSize = 16.sp
                 )
             }
         }
